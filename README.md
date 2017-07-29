@@ -8,3 +8,5 @@ This script also handles structing adding varibles to each mailing list entry - 
 For example - you could add a users profile image to the email by storing it in a user varible.
 
 Modify this script as needed. Version One runs with an entry in crontab to run it once a month before the newsletter goes out.
+
+www.mediathreat.com
