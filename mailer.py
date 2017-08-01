@@ -37,8 +37,8 @@ for y in result:
         username = y[1]
         email = y[3]
         start_date = y[5]
-	profile = "Profile Information"
-	logo = "http://www.yourdomain.com/userlogo.jpg"
+	profile = y[6]
+	logo = y[7]
         newdata = {'subscribed': True, 'upsert' : True, 'address': email ,'name': username, 'vars': {"description": profile , "logo" : logo } }
         data.append(newdata)
 data = {"members": json.dumps(data)}
